@@ -4,7 +4,6 @@
     align-items: center;
 }
 body{
-    punto 
     background: rgba(116,2,28,1);
     background: -moz-linear-gradient(left, 
     rgba(116,2,28,1) 0%, 
@@ -21,11 +20,7 @@ body{
     background: -ms-linear-gradient(left, rgba(116,2,28,1) 0%, rgba(116,2,28,1) 44%, rgba(105,2,25,1) 58%, rgba(71,0,17,1) 100%);
     background: linear-gradient(to right, rgba(116,2,28,1) 0%, rgba(116,2,28,1) 44%, rgba(105,2,25,1) 58%, rgba(71,0,17,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74021c', endColorstr='#470011', GradientType=1 );
-    align-items: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
+    
 }
 .contenedor{
     height: 480px;
@@ -33,7 +28,7 @@ body{
     border-style: solid;
     border: solid;    
 }
-.fila1{
+.fila{
     margin: 0px;
     padding: 0px;
     height: 80px;
@@ -42,7 +37,7 @@ body{
     
     display: flex;
 }
-.agujero {
+.celda {
     background-color: black;
     border: solid;
     margin: 4px;
@@ -51,12 +46,12 @@ body{
     width: 80px;
     border-radius: 60px;
 }
-.agujero:hover{
+.celda:hover{
     background-color: blanchedalmond;
 }
-#jugador1{
+.jugador1{
     background-color: blue;
 }
-#jugador2{
+.jugador2{
     background-color: red;
 }
