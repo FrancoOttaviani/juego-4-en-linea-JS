@@ -4,54 +4,102 @@
     align-items: center;
 }
 body{
-    background: rgba(116,2,28,1);
-    background: -moz-linear-gradient(left, 
-    rgba(116,2,28,1) 0%, 
-    rgba(116,2,28,1) 44%, 
-    rgba(105,2,25,1) 58%, 
-    rgba(71,0,17,1) 100%);
-    background: -webkit-gradient(left top, right top, 
-                color-stop(0%, rgba(116,2,28,1)), 
-                color-stop(44%, rgba(116,2,28,1)), 
-                color-stop(58%, rgba(105,2,25,1)), 
-                color-stop(100%, rgba(71,0,17,1)));
-    background: -webkit-linear-gradient(left, rgba(116,2,28,1) 0%, rgba(116,2,28,1) 44%, rgba(105,2,25,1) 58%, rgba(71,0,17,1) 100%);
-    background: -o-linear-gradient(left, rgba(116,2,28,1) 0%, rgba(116,2,28,1) 44%, rgba(105,2,25,1) 58%, rgba(71,0,17,1) 100%);
-    background: -ms-linear-gradient(left, rgba(116,2,28,1) 0%, rgba(116,2,28,1) 44%, rgba(105,2,25,1) 58%, rgba(71,0,17,1) 100%);
-    background: linear-gradient(to right, rgba(116,2,28,1) 0%, rgba(116,2,28,1) 44%, rgba(105,2,25,1) 58%, rgba(71,0,17,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74021c', endColorstr='#470011', GradientType=1 );
-    
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 .contenedor{
-    height: 480px;
+    height: 400px;
     width: 500px;
+    justify-content: space-around;
+    align-items: center;
     border-style: solid;
     border: solid;    
 }
-.fila{
-    margin: 0px;
-    padding: 0px;
-    height: 80px;
+.botones{
+    display: flex;
+    height: 60px;
     width: 500px;
-    border: ;
-    
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+}
+.fila{
+    margin: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 500px;
     display: flex;
 }
 .celda {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: black;
     border: solid;
     margin: 4px;
     padding: 0px;
-    height: 60px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     border-radius: 60px;
 }
+.turno{
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+    
+    
+}
 .celda:hover{
-    background-color: blanchedalmond;
+    border-color: blanchedalmond;
 }
 .jugador1{
     background-color: blue;
 }
 .jugador2{
     background-color: red;
+}
+.flechas{
+    display: flex;
+    width: 450px;
+    justify-content: space-around;
+
+}
+.flecha{
+     border-right: 20px solid transparent;
+     border-top:   20px solid transparent;
+     border-left:  20px solid transparent;
+     border-bottom:20px solid transparent;
+}
+#reset{
+    height: 50px;
+    width: 200px;
+}
+#play{
+    height: 50px;
+    width: 200px;
+}
+button{
+    padding: 0px;
+    border-style: none;
+    background-color: chocolate;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+button:hover{
+    background-color: coral;
+}
+.tiempo{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 90%;
+    background-color: chocolate;
+    height: 50px;
+    width: 500px;
 }
