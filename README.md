@@ -1,1 +1,1 @@
-https://francoottaviani.github.io/Practica-LPPA/Cuatro_en_linea/
+Proyecto realizado en HTML CSS y JavaScript. Juego "Cuatro En Linea"
